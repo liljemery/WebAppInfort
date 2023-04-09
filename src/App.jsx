@@ -1,5 +1,5 @@
 import Home from "./componentes/home";
-import AboutUs from "./componentes/aboutus";
+import aboutUs from "./componentes/aboutus";
 import solutions from "./componentes/solutions";
 import contactus from "./componentes/contactUs";
 import processes from "./componentes/processes";
@@ -10,7 +10,7 @@ const App = () =>(
     <Routes>
       <Route path="/" Component={Home} />
       <Route path="/processes" Component={processes} />
-      <Route path="/aboutus" Component={AboutUs} />
+      <Route path="/aboutus" Component={aboutUs} />
       <Route path="/solutions" Component={solutions} />
       <Route path="/contactus" Component={contactus} />
     </Routes>
